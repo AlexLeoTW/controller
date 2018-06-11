@@ -1,6 +1,6 @@
 const should = require('should');
 
-const bungeeCtrl = require('../lib/bungeeCtrl2');
+const bungeeCtrl = require('../lib/bungeeCtrl');
 
 describe('#isDummyMode', () => {
   // 測試 BungeeCord 預設 config.yml 內容
