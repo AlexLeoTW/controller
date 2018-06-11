@@ -1,0 +1,41 @@
+# server jar filename
+#     default: server.jar
+server-jar: spigot-1.8.jar
+
+# server java options
+#     default:
+#       - -Xmx2G
+javaArgs:
+
+# server version (please make sure this matches your server jar)
+#     default: 1.12.2
+version: 1.8
+
+# ports for restServer module
+# Note: port for BungeeCord and your server is set according to your server/server.properties
+#     default: 8443
+callback-port:
+
+# motd for each components
+# Note: motd for your server is set according to your server/server.properties
+#     default:
+#       - bungee: A Minecraft Server
+#       - dummy: please login to wake server up
+motd:
+
+# Linode Personal Access Token
+#     default: no default [Must]
+linodeToken: 61246f3cc4445a8cf1089ab6818169daab8b37b3e2d02bb706b192e8c23ee3b4
+
+# how you would like your game server be?
+gameServer:
+  # game server root password
+  #     default: no default [Must]
+  rootPass: root_pass
+  # prefered Linode region (https://api.linode.com/v4/regions)
+  #     default: ap-northeast
+  region:
+  # prefered Linode type (https://api.linode.com/v4/linode/types)
+  # how many CPUs, menory and more...
+  #     default: g6-standard-2
+  type:

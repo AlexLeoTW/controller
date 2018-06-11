@@ -1,0 +1,6 @@
+server/
+bungee/
+node_modules/
+lib/reset.sh
+
+server.tar.bz2

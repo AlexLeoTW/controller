@@ -1,0 +1,31 @@
+{
+  "name": "controller",
+  "version": "1.0.0",
+  "description": "Minecraft dummy server controller",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "https": "^1.0.0",
+    "js-yaml": "^3.11.0",
+    "minecraft-protocol": "^1.5.3",
+    "multer": "^1.3.0",
+    "prismarine-chunk": "^1.9.0",
+    "progress": "^2.0.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Minecraft"
+  ],
+  "author": "AlexLeoTW",
+  "license": "ISC"
+}
