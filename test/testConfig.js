@@ -58,7 +58,7 @@ describe('#checkMustField', () => {
   })
 
   // 測試 checkMustField 在雙層的時候(.)，錯誤
-  it('should check all must field (with .)', done => {
+  it('should throw error when inner must fields not set (with .)', done => {
 
     should.throws(() => {
       config.checkMustField({
