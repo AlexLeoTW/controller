@@ -19,7 +19,7 @@ callback-port:
 # motd for each components
 # Note: motd for your server is set according to your server/server.properties
 #     default:
-#       - bungee: A Minecraft Server
+#       - bungee: whatever is in server/server.properties
 #       - dummy: please login to wake server up
 motd:
 
