@@ -47,7 +47,7 @@ new Promise((resolve, reject) => {
   dummyServer.on('login', (client) => {
     console.log(`[${(new Date()).toLocaleTimeString()}] ${client.username} login!`);
     // trigger remote server creation
-    linodeCtrl.createGameServer(options, callbackIp);
+    linodeCtrl.createGameServer(options, config.myip);
   })
 })
 
